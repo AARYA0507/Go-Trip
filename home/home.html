@@ -5,10 +5,129 @@
             Go-Trip
         </title>
         <style>
+            body{
+                background-image: url("./../Images/photo\ travel.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            .nav-bar
+            {
+                background-color: aquamarine;
+            
+                padding: 10px;
+                margin-left: -7px;
+                margin-right: -10px;
+                margin-top: -7px;
+                display: flex;
+                justify-content: end;
+                font-size: 10px;
+                
+            }
+
+            .nav-btn
+            {
+                margin: 5px;
+                text-decoration: none;
+                margin-right: 30px;
+                color: black;
+                padding: 4px;
+                margin-top: 20px;
+                
+              
+            }
+            
+
+            .nav-img
+            {
+                height: 50px;
+                width: 100px;
+                margin-right: 550px;
+                margin-top: -2px;
+            }
+         
+            .nav-btn:hover
+            {
+                transition: 1s;
+                text-decoration:underline;
+             
+
+            }
+
+          
+            h1 
+            {
+                margin-right: 10px;
+            }
+
+            .home-head
+            {
+                font-family: monospace;
+                text-align: center;
+                margin-top: 300px;
+                font-size: 60px;
+            }
+
+            .place-book
+            {
+                margin-left: 345px;
+             }
+
+             .home-btn
+
+             {
+                font-size: 30px;
+                border-radius: 5px;
+                border-color: tomato;
+             }
+             .book 
+             {
+                background-color: tomato;
+                margin-left: 5px;
+             } 
+             .book:hover
+             {
+                background-color: brown;
+                transition: 1s;
+                cursor: pointer;
+             }
+
 
         </style>
     </head>
     <body>
-        <h1>This is Go-Trip project</h1>
+        
+        <div class="nav-bar">
+            <h1>Go-Trip</h1>
+            <img src="./../Images/travelling.png" class="nav-img"/>
+            
+            <a href="" class="nav-btn">HOME</a>
+            <a href=""  class="nav-btn">TOURS</a>
+            <a href=""  class="nav-btn">PLACES</a>
+            <a href=""  class="nav-btn">IMAGES</a>
+            <a href=""  class="nav-btn fp">FEATURE PLANNING</a>
+            <a href=""  class="nav-btn">DESTINATION</a>
+            <a href=""  class="nav-btn">ABOUT US</a>
+            <a href=""  class="nav-btn">CONTACT US</a>
+            
+        </div>
+
+        <div class="other-tag">
+            <a href=""><ol>HOME</ol></a>
+            <a href=""><ol>HOTELS</ol></a>
+        </div>
+
+        <div class="main-head">
+            <h1 class="home-head">Find Your Next-Tour !</h1>
+        </div>
+
+        <div class="place-book">
+            <input type="text" class="home-btn" placeholder="Where would you like to Go?"/>
+            <input type="datetime-local" class="home-btn"/>
+            <button class="home-btn book" >Book</button>
+        </div>
+
+       
+                                                                                                                                    
     </body>
 </html>
