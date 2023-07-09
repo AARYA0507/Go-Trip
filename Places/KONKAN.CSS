@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+.mainHeading{
+
+    font-size: 40px;
+}
+.small{
+    font-size: 20px;
+}
+.big{
+    font-size: 16px;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.div56{
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.flexDown2{
+    flex-direction: column;
+
+}
+.flexDown{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+     -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    gap: 10px;
+    background-color: white;
+    
+}
+.flexDown>img{ 
+    border-radius: 10px 10px 0 0 ;
+}
+
+.fontBig{
+    font-size: 18px;
+    color: black;
+
+ 
+}
+
+.backgroundImage{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: -2;
+}
+.blur{
+    position: absolute;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+ 
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+.frsPage{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.width80{
+    width: 80vw; 
+    color: white;
+ }
+
+ p{
+    text-align: center;
+    margin: 0px 50px;
+ }
